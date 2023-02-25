@@ -29,47 +29,55 @@ def get_logger(filename, verb_level='info', name=None, method=None):
     return logger
 
 
-class typora_parser:
+class typora_img_red_remover:
     """this parser will take a typora markdown file as input and operate on it:
-    0. take path of markdown file and recursively get all paths in markdown files dir
-    1. extract all "![]()" patterns in md file
-    2. filter out all hyper-links, e.g.: ![xxx](https://github.com/typora/typora-issues)
-        notice: there are some hyper-links rendered as image or contents, it needs to be classified
-        either manually or automatically for further conversion
-    3. extract all local path from patterns and loop through them to classify is absolute or relative path
-    4. for absolute path, print them out if any
-    5. for relative path, match them with all paths list in the markdown's dir
-    6. check if there is any unmatched relative path (potential broken img link)
-    7. print out the all-paths list if it is not empty (potential removable duplicates)
+    1. folder path extracting:
+        1. recursively get all paths in target folder
+        2. extract md files from all paths, all paths include only img paths
+        3. check img_paths and warn user if there is any pdf files
+    2. extract using imgpaths from md files:
+        1. recursively extract all "![]()" & "<img src=''...>" patterns in md filelist
+        2. filter out all hyper-links and absolute paths e.g.: ![xxx](https://github.com/typora/typora-issues)
+            notice: there maybe some hyper-links rendered as image or contents, it needs to be
+            either manually or automatically checked & converted.
+    3. redundant path removing:
+        1. remove used_img_paths from all_src_imgs to get red_imgs
+        2. move red_imgs to a redundant folder
+    4. manual postprocess:
+        1. manual verification of those red_imgs in red folder
+        2. check if there is any unmatched relative path in md files (potential broken img link)
     """
     
     def __init__(self, path) -> None:
         # self.mdpath = osp.abspath(path)
         self.root = osp.abspath(path)
-        self.all_files = []
+
+    def img_src_extract(self):
+        logger.info(f"Processing folder: {self.root}")
+        self.all_src_imgs = []
         self.ext_all_files(self.root)
-        logger.info(f"Total file counts in this folder: {len(self.all_files)}")
-        if logging.DEBUG >= logger.root.level:
-            logger.debug("All files in this folder:")
-            for a in self.all_files:
-                logger.debug(a)
+        logger.info(f"Total file count: {len(self.all_src_imgs)}")
         self.ext_mds()
+        logger.info(f"Total md file count: {len(self.mdpaths)}")
+        fns = ""
+        for x in self.mdpaths:
+            fns+=(x+'\n')
+        logger.info(f"All md in this folder:\n {fns}")
         self.check_files()
     
     def ext_mds(self):
         self.mdpaths = []
-        for f in self.all_files:
+        for f in self.all_src_imgs:
             if '.md' in f:
                 self.mdpaths.append(f)
         for f in self.mdpaths:
-            self.all_files.remove(f)
-        logger.info(f"All mds in this folder: {self.mdpaths}")
+            self.all_src_imgs.remove(f)
     
     def check_files(self, warn_fmt = ['.md', '.pdf']):
-        for f in self.all_files:
+        for f in self.all_src_imgs:
             for fmt in warn_fmt:
                 if fmt in f:
-                    logger.warn(f"Warnning format({fmt}) detected: {f}")
+                    logger.warn(f"Warnning format({fmt}) detected in img filelist after md remover: {f}")
     
     def ext_all_files(self, dir):
         ps = os.listdir(dir)
@@ -79,13 +87,37 @@ class typora_parser:
         except:
             pass
         fs = [p for p in ps if osp.isfile(p)]
-        self.all_files.extend(fs)
+        self.all_src_imgs.extend(fs)
         for f in fs:
             ps.remove(f)
         for d in ps:
             self.ext_all_files(d)
-    
-    def img_path_extractor(self, remove=True):
+
+    def ext_path(self, txt):
+        res = []
+        for y in self.x:
+            res.extend(re.findall(y, txt))
+        return res
+
+    def check_path(self, fp, md):
+        """check if the img path is
+        1. hyper link, 2. absolute path
+        then print them out and remove from path if remove==True
+        """
+        hps = [r"https://", r"http://"]
+        # self.all_used_imgs.append(r"http://img.freepik.com/free-photo/abstract-")
+        # self.all_used_imgs.append(r"https://img.freepik.com/free-photo/abstract-grunge-decorative-relief-navy-blue-stucco-wall-texture-wide-angle-rough-colored-background_1258-28311.jpg?w=2000")
+        # self.all_used_imgs.append(r"C:/fdsjl/fd.png")
+        for hp in hps:
+            if hp in fp:
+                logger.warn(f"HyperLink detected in md imgpath: \n{fp}\n{md}")
+                return True
+        if osp.isabs(fp):
+            logger.warn(f"AbsolutePath detected in md imgpath: \n{fp}\n{md}")
+            return True
+        return False
+
+    def img_used_extract(self, remove=True):
         """所有插入图片的格式是：![]()，这里loop md文档，然后把所有()里的路径抓出来,
         注意：
         因为可能有hyperlink图片和absolute path的图片，默认都要把这两种去掉
@@ -97,60 +129,37 @@ class typora_parser:
         patterns = ["\!\[.*?\]\((.*?)\)",
                     "\<img src=[\"\'](.*?)[\"\']"
                     ]
-        
-        x = [re.compile(y) for y in patterns]
-        
-        def ext_path(txt):
-            res = []
-            for y in x:
-                res.extend(re.findall(y, txt))
-            return res
+        if remove:
+            logger.info(f"[Imgpath Extraction]Auto remove for AbsolutePath and HyperLink is opened")
+        self.x = [re.compile(y) for y in patterns]
 
-        def check_path(fp, md):
-            """check if the img path is
-            1. hyper link, 2. absolute path
-            then print them out and remove from path if remove==True
-            """
-            hps = [r"https://", r"http://"]
-            # self.all_imgs.append(r"http://img.freepik.com/free-photo/abstract-")
-            # self.all_imgs.append(r"https://img.freepik.com/free-photo/abstract-grunge-decorative-relief-navy-blue-stucco-wall-texture-wide-angle-rough-colored-background_1258-28311.jpg?w=2000")
-            # self.all_imgs.append(r"C:/fdsjl/fd.png")
-            for hp in hps:
-                if hp in fp:
-                    logger.warn(f"HyperLink detected in md imgpath: \n{fp}\n{md}")
-                    return True
-            if osp.isabs(fp):
-                logger.warn(f"AbsolutePath detected in md imgpath: \n{fp}\n{md}")
-                return True
-            return False
-
-        self.all_imgs = []
+        self.all_used_imgs = []
         for md in self.mdpaths:
             dir = osp.dirname(md)
             with open(md, 'r', encoding='utf8') as fp:
                 line = fp.readline()
                 while line:
-                    ps = ext_path(line)
+                    ps = self.ext_path(line)
                     if len(ps) != 0:
                         rs = []
                         # check if its hyperlink or abs path, then remove it from img_path
                         for p in ps:
-                            if remove and check_path(p, md):
+                            if remove and self.check_path(p, md):
                                 rs.append(p)
                         for r in rs:
                             ps.remove(r)
                         # convert relative path to abs path
                         ps = [osp.join(dir, p) for p in ps]
-                        self.all_imgs.extend(ps)
+                        self.all_used_imgs.extend(ps)
                     line = fp.readline()
-        self.all_imgs = list(set(self.all_imgs))
+        self.all_used_imgs = list(set(self.all_used_imgs))
     
     def get_red_paths(self):
-        self.red_paths = self.all_files.copy()
-        # self.all_imgs = [osp.abspath(osp.join(self.root,i)) for i in self.all_imgs]
-        for i in self.all_imgs:
+        self.red_paths = self.all_src_imgs.copy()
+        # self.all_used_imgs = [osp.abspath(osp.join(self.root,i)) for i in self.all_used_imgs]
+        for i in self.all_used_imgs:
             try:
-                self.red_paths.remove(i)
+                self.red_paths.remove(osp.abspath(i))   #osp.abspath is necessary to convert '\' to '//' in windows system
                 logger.debug(f"{i} in dir")
             except Exception as e:
                 logger.error(f"Img path ({i}) is not in the dir!")
@@ -166,7 +175,6 @@ class typora_parser:
             tar = osp.join(self.root, 'red_files')
             os.makedirs(tar, exist_ok=True)
             for i in self.red_paths:
-                # i = osp.basename(i)
                 o = i.replace(self.root, tar)
                 d = osp.dirname(o)
                 if not osp.exists(d):
@@ -174,16 +182,22 @@ class typora_parser:
                 shutil.move(i, o)
             logger.info(f"All redundant files are moved to {tar} waiting for manual verification")
 
+    def run(self):
+        self.img_src_extract()
+        self.img_used_extract()
+    
+        self.get_red_paths()
+        if len(self.red_paths) != 0:
+            self.remove_red_paths(method='manual_veri')
    
 if __name__=='__main__':
     
     logger = get_logger(filename='./log.log', verb_level='info', method='w2file')
     
-    tp = typora_parser(path=r'C:\Users\Administrator\Desktop\typora_parser\new')
+    input_dir = r'C:\Users\Administrator\Desktop\typora_parser\new'
     
-    tp.img_path_extractor()
+    tp = typora_img_red_remover(path=input_dir)
+    tp.run()
     
-    tp.get_red_paths()
-    if len(tp.red_paths) != 0:
-        tp.remove_red_paths(method='manual_veri')
+
     

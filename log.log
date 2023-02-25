@@ -1,58 +1,10 @@
-[2023-02-25 10:25:16,760][typora_red_img_remover.py][line:51][INFO] Total file counts in this folder: 149
-[2023-02-25 10:25:16,761][typora_red_img_remover.py][line:66][INFO] All mds in this folder: ['C:\\Users\\Administrator\\Desktop\\typora_parser\\new\\filecoin加速预研.md']
-[2023-02-25 10:25:18,402][typora_red_img_remover.py][line:95][INFO] 
+[2023-02-25 13:16:25,115][typora_red_img_remover.py][line:56][INFO] Processing folder: C:\Users\Administrator\Desktop\typora_parser\new
+[2023-02-25 13:16:25,122][typora_red_img_remover.py][line:59][INFO] Total file count: 98
+[2023-02-25 13:16:25,122][typora_red_img_remover.py][line:61][INFO] Total md file count: 1
+[2023-02-25 13:16:25,123][typora_red_img_remover.py][line:65][INFO] All md in this folder:
+ C:\Users\Administrator\Desktop\typora_parser\new\filecoin加速预研.md
+
+[2023-02-25 13:16:25,123][typora_red_img_remover.py][line:127][INFO] 
 Img path extracting... check for hyper-link & abs path, remove method==True
-[2023-02-25 10:30:29,183][typora_red_img_remover.py][line:158][INFO] 
-All redundant paths are:
-[2023-02-25 10:30:29,183][typora_red_img_remover.py][line:160][INFO] C:\Users\Administrator\Desktop\typora_parser\new\media\filecoin加速预研\1607650448350.png
-[2023-02-25 10:30:29,184][typora_red_img_remover.py][line:160][INFO] C:\Users\Administrator\Desktop\typora_parser\new\media\filecoin加速预研\310px-Hash_Tree.svg.png
-[2023-02-25 10:30:29,184][typora_red_img_remover.py][line:160][INFO] C:\Users\Administrator\Desktop\typora_parser\new\media\filecoin加速预研\640 (2).webp
-[2023-02-25 10:30:29,184][typora_red_img_remover.py][line:160][INFO] C:\Users\Administrator\Desktop\typora_parser\new\media\filecoin加速预研\be8932e3dd0f0f144b6c6fbb088fe21a08640ad8
-[2023-02-25 10:30:29,185][typora_red_img_remover.py][line:160][INFO] C:\Users\Administrator\Desktop\typora_parser\new\media\filecoin加速预研\clip_image002-1608262812707.gif
-[2023-02-25 10:30:29,185][typora_red_img_remover.py][line:160][INFO] C:\Users\Administrator\Desktop\typora_parser\new\media\filecoin加速预研\clip_image002.gif
-[2023-02-25 10:30:29,185][typora_red_img_remover.py][line:160][INFO] C:\Users\Administrator\Desktop\typora_parser\new\media\filecoin加速预研\f59da4e17b1224d6a3fd46309ff6edd7.jpeg
-[2023-02-25 10:30:29,186][typora_red_img_remover.py][line:160][INFO] C:\Users\Administrator\Desktop\typora_parser\new\media\filecoin加速预研\filecoin-7-2.png
-[2023-02-25 10:30:29,186][typora_red_img_remover.py][line:160][INFO] C:\Users\Administrator\Desktop\typora_parser\new\media\filecoin加速预研\image-20201214134641056.png
-[2023-02-25 10:30:29,186][typora_red_img_remover.py][line:160][INFO] C:\Users\Administrator\Desktop\typora_parser\new\media\filecoin加速预研\image-20201214155529175.png
-[2023-02-25 10:30:29,187][typora_red_img_remover.py][line:160][INFO] C:\Users\Administrator\Desktop\typora_parser\new\media\filecoin加速预研\image-20201217091106497.png
-[2023-02-25 10:30:29,187][typora_red_img_remover.py][line:160][INFO] C:\Users\Administrator\Desktop\typora_parser\new\media\filecoin加速预研\image-20201217104238238.png
-[2023-02-25 10:30:29,187][typora_red_img_remover.py][line:160][INFO] C:\Users\Administrator\Desktop\typora_parser\new\media\filecoin加速预研\image-20201217144939730.png
-[2023-02-25 10:30:29,188][typora_red_img_remover.py][line:160][INFO] C:\Users\Administrator\Desktop\typora_parser\new\media\filecoin加速预研\image-20201218091555387.png
-[2023-02-25 10:30:29,188][typora_red_img_remover.py][line:160][INFO] C:\Users\Administrator\Desktop\typora_parser\new\media\filecoin加速预研\image-20201225112930034.png
-[2023-02-25 10:30:29,188][typora_red_img_remover.py][line:160][INFO] C:\Users\Administrator\Desktop\typora_parser\new\media\filecoin加速预研\image-20201225112951618.png
-[2023-02-25 10:30:29,188][typora_red_img_remover.py][line:160][INFO] C:\Users\Administrator\Desktop\typora_parser\new\media\filecoin加速预研\image-20201225113421629.png
-[2023-02-25 10:30:29,189][typora_red_img_remover.py][line:160][INFO] C:\Users\Administrator\Desktop\typora_parser\new\media\filecoin加速预研\image-20201225115700532.png
-[2023-02-25 10:30:29,189][typora_red_img_remover.py][line:160][INFO] C:\Users\Administrator\Desktop\typora_parser\new\media\filecoin加速预研\image-20201225115707427.png
-[2023-02-25 10:30:29,189][typora_red_img_remover.py][line:160][INFO] C:\Users\Administrator\Desktop\typora_parser\new\media\filecoin加速预研\image-20201225120809024.png
-[2023-02-25 10:30:29,189][typora_red_img_remover.py][line:160][INFO] C:\Users\Administrator\Desktop\typora_parser\new\media\filecoin加速预研\image-20201229162437019.png
-[2023-02-25 10:30:29,189][typora_red_img_remover.py][line:160][INFO] C:\Users\Administrator\Desktop\typora_parser\new\media\filecoin加速预研\image-20201229162529812.png
-[2023-02-25 10:30:29,190][typora_red_img_remover.py][line:160][INFO] C:\Users\Administrator\Desktop\typora_parser\new\media\filecoin加速预研\image-20201229162546293.png
-[2023-02-25 10:30:29,190][typora_red_img_remover.py][line:160][INFO] C:\Users\Administrator\Desktop\typora_parser\new\media\filecoin加速预研\image-20201229182315550.png
-[2023-02-25 10:30:29,190][typora_red_img_remover.py][line:160][INFO] C:\Users\Administrator\Desktop\typora_parser\new\media\filecoin加速预研\image-20201229185733177.png
-[2023-02-25 10:30:29,190][typora_red_img_remover.py][line:160][INFO] C:\Users\Administrator\Desktop\typora_parser\new\media\filecoin加速预研\image-20210104114340163.png
-[2023-02-25 10:30:29,191][typora_red_img_remover.py][line:160][INFO] C:\Users\Administrator\Desktop\typora_parser\new\media\filecoin加速预研\image-20210104114405247.png
-[2023-02-25 10:30:29,191][typora_red_img_remover.py][line:160][INFO] C:\Users\Administrator\Desktop\typora_parser\new\media\filecoin加速预研\image-20210107165359993.png
-[2023-02-25 10:30:29,191][typora_red_img_remover.py][line:160][INFO] C:\Users\Administrator\Desktop\typora_parser\new\media\filecoin加速预研\image-20210115093541459.png
-[2023-02-25 10:30:29,191][typora_red_img_remover.py][line:160][INFO] C:\Users\Administrator\Desktop\typora_parser\new\media\filecoin加速预研\image-20210115145459797.png
-[2023-02-25 10:30:29,192][typora_red_img_remover.py][line:160][INFO] C:\Users\Administrator\Desktop\typora_parser\new\media\filecoin加速预研\image-20210115145616486.png
-[2023-02-25 10:30:29,192][typora_red_img_remover.py][line:160][INFO] C:\Users\Administrator\Desktop\typora_parser\new\media\filecoin加速预研\image-20210115150033415.png
-[2023-02-25 10:30:29,192][typora_red_img_remover.py][line:160][INFO] C:\Users\Administrator\Desktop\typora_parser\new\media\filecoin加速预研\image-20210115150121058.png
-[2023-02-25 10:30:29,192][typora_red_img_remover.py][line:160][INFO] C:\Users\Administrator\Desktop\typora_parser\new\media\filecoin加速预研\image-20210115150244920.png
-[2023-02-25 10:30:29,193][typora_red_img_remover.py][line:160][INFO] C:\Users\Administrator\Desktop\typora_parser\new\media\filecoin加速预研\image-20210115152106769.png
-[2023-02-25 10:30:29,193][typora_red_img_remover.py][line:160][INFO] C:\Users\Administrator\Desktop\typora_parser\new\media\filecoin加速预研\image-20210115152800953.png
-[2023-02-25 10:30:29,193][typora_red_img_remover.py][line:160][INFO] C:\Users\Administrator\Desktop\typora_parser\new\media\filecoin加速预研\image-20210115152826984.png
-[2023-02-25 10:30:29,194][typora_red_img_remover.py][line:160][INFO] C:\Users\Administrator\Desktop\typora_parser\new\media\filecoin加速预研\image-20210115154437512.png
-[2023-02-25 10:30:29,194][typora_red_img_remover.py][line:160][INFO] C:\Users\Administrator\Desktop\typora_parser\new\media\filecoin加速预研\image-20210115154502661.png
-[2023-02-25 10:30:29,194][typora_red_img_remover.py][line:160][INFO] C:\Users\Administrator\Desktop\typora_parser\new\media\filecoin加速预研\image-20210115154535647.png
-[2023-02-25 10:30:29,194][typora_red_img_remover.py][line:160][INFO] C:\Users\Administrator\Desktop\typora_parser\new\media\filecoin加速预研\image-20210115154608736.png
-[2023-02-25 10:30:29,195][typora_red_img_remover.py][line:160][INFO] C:\Users\Administrator\Desktop\typora_parser\new\media\filecoin加速预研\image-20210115154613867.png
-[2023-02-25 10:30:29,195][typora_red_img_remover.py][line:160][INFO] C:\Users\Administrator\Desktop\typora_parser\new\media\filecoin加速预研\image-20210115154904400.png
-[2023-02-25 10:30:29,195][typora_red_img_remover.py][line:160][INFO] C:\Users\Administrator\Desktop\typora_parser\new\media\filecoin加速预研\image-20210115155907250.png
-[2023-02-25 10:30:29,195][typora_red_img_remover.py][line:160][INFO] C:\Users\Administrator\Desktop\typora_parser\new\media\filecoin加速预研\image-20210115161121440.png
-[2023-02-25 10:30:29,196][typora_red_img_remover.py][line:160][INFO] C:\Users\Administrator\Desktop\typora_parser\new\media\filecoin加速预研\image-20210115161334224.png
-[2023-02-25 10:30:29,196][typora_red_img_remover.py][line:160][INFO] C:\Users\Administrator\Desktop\typora_parser\new\media\filecoin加速预研\image-20210115162120334.png
-[2023-02-25 10:30:29,196][typora_red_img_remover.py][line:160][INFO] C:\Users\Administrator\Desktop\typora_parser\new\media\filecoin加速预研\image-20210115162855390.png
-[2023-02-25 10:30:29,197][typora_red_img_remover.py][line:160][INFO] C:\Users\Administrator\Desktop\typora_parser\new\media\filecoin加速预研\image-20220714100726473.png
-[2023-02-25 10:30:29,197][typora_red_img_remover.py][line:160][INFO] C:\Users\Administrator\Desktop\typora_parser\new\media\filecoin加速预研\image-20220714105129213.png
-[2023-02-25 10:30:29,197][typora_red_img_remover.py][line:160][INFO] C:\Users\Administrator\Desktop\typora_parser\new\media\filecoin加速预研\v2-1f7651e6f027c80df4a2052d85892aa8_1440w.jpg
-[2023-02-25 10:30:29,235][typora_red_img_remover.py][line:175][INFO] All redundant files are moved to C:\Users\Administrator\Desktop\typora_parser\new\red_files waiting for manual verification
+[2023-02-25 13:16:25,124][typora_red_img_remover.py][line:133][INFO] [Imgpath Extraction]Auto remove for AbsolutePath and HyperLink is opened
+[2023-02-25 13:16:25,129][typora_red_img_remover.py][line:171][INFO] There is no redundant path!
