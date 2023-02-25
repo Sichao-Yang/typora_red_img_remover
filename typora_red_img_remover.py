@@ -94,10 +94,17 @@ class typora_parser:
         # txt = "test ![fdajk fda ](media/a/bfds.png) testse ![fdajfdsk](meddifds a/b/bfds.png) test"
         logger.info(f"\nImg path extracting... check for hyper-link & abs path, remove method=={remove}")
         
-        x = re.compile("\!\[.*?\]\((.*?)\)")
+        patterns = ["\!\[.*?\]\((.*?)\)",
+                    "\<img src=[\"\'](.*?)[\"\']"
+                    ]
+        
+        x = [re.compile(y) for y in patterns]
         
         def ext_path(txt):
-            return re.findall(x, txt)
+            res = []
+            for y in x:
+                res.extend(re.findall(y, txt))
+            return res
 
         def check_path(fp, md):
             """check if the img path is
@@ -140,7 +147,7 @@ class typora_parser:
     
     def get_red_paths(self):
         self.red_paths = self.all_files.copy()
-        self.all_imgs = [osp.abspath(osp.join(self.root,i)) for i in self.all_imgs]
+        # self.all_imgs = [osp.abspath(osp.join(self.root,i)) for i in self.all_imgs]
         for i in self.all_imgs:
             try:
                 self.red_paths.remove(i)
@@ -172,7 +179,7 @@ if __name__=='__main__':
     
     logger = get_logger(filename='./log.log', verb_level='info', method='w2file')
     
-    tp = typora_parser(path=r'C:\Users\Administrator\Desktop\test\tmp')
+    tp = typora_parser(path=r'C:\Users\Administrator\Desktop\typora_parser\new')
     
     tp.img_path_extractor()
     

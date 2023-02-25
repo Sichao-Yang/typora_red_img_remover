@@ -1,117 +1,58 @@
-[2023-01-08 18:42:35,271][typora_red_img_remover.py][line:51][INFO] Total file counts in this folder: 138
-[2023-01-08 18:42:35,272][typora_red_img_remover.py][line:66][INFO] All mds in this folder: ['C:\\Users\\Administrator\\Desktop\\test\\tmp\\2_HiddenMarkovModel\\HMM.md', 'C:\\Users\\Administrator\\Desktop\\test\\tmp\\4_Chapter9_GaussianProcesses\\0_intuition\\0_Intuition.md', 'C:\\Users\\Administrator\\Desktop\\test\\tmp\\4_Chapter9_GaussianProcesses\\2_gaussian_process_regression_code\\gaussian_processes.md', 'C:\\Users\\Administrator\\Desktop\\test\\tmp\\5_BayesianNeuralNetwork\\Regression with Probabilistic Layers in TensorFlow Probability.md', 'C:\\Users\\Administrator\\Desktop\\test\\tmp\\6_DimensionReduction\\DimensionReduction.md', 'C:\\Users\\Administrator\\Desktop\\test\\tmp\\6_DimensionReduction\\dimension_reduction_tools.md', 'C:\\Users\\Administrator\\Desktop\\test\\tmp\\6_stochastic_programming\\stochastic_programming.md']
-[2023-01-08 18:42:35,273][typora_red_img_remover.py][line:72][WARNING] Warnning format(.pdf) detected: C:\Users\Administrator\Desktop\test\tmp\2_HiddenMarkovModel\Example-Viterbi-DNA.pdf
-[2023-01-08 18:42:35,274][typora_red_img_remover.py][line:72][WARNING] Warnning format(.pdf) detected: C:\Users\Administrator\Desktop\test\tmp\2_HiddenMarkovModel\HMM.pdf
-[2023-01-08 18:42:35,274][typora_red_img_remover.py][line:72][WARNING] Warnning format(.pdf) detected: C:\Users\Administrator\Desktop\test\tmp\4_Chapter9_GaussianProcesses\1_math\1_GPtutorial_quick_concept.pdf
-[2023-01-08 18:42:35,274][typora_red_img_remover.py][line:72][WARNING] Warnning format(.pdf) detected: C:\Users\Administrator\Desktop\test\tmp\4_Chapter9_GaussianProcesses\2_gaussian_process_regression_code\gaussian_processes.pdf
-[2023-01-08 18:42:35,274][typora_red_img_remover.py][line:72][WARNING] Warnning format(.pdf) detected: C:\Users\Administrator\Desktop\test\tmp\4_Chapter9_GaussianProcesses\refs\Bayesian_opt.pdf
-[2023-01-08 18:42:35,275][typora_red_img_remover.py][line:72][WARNING] Warnning format(.pdf) detected: C:\Users\Administrator\Desktop\test\tmp\4_Chapter9_GaussianProcesses\refs\RW2.pdf
-[2023-01-08 18:42:35,275][typora_red_img_remover.py][line:72][WARNING] Warnning format(.pdf) detected: C:\Users\Administrator\Desktop\test\tmp\4_Chapter9_GaussianProcesses\refs\RW_book_GPforML.pdf
-[2023-01-08 18:42:35,275][typora_red_img_remover.py][line:72][WARNING] Warnning format(.pdf) detected: C:\Users\Administrator\Desktop\test\tmp\4_Chapter9_GaussianProcesses\refs\blog\Bayesian Regression as a Gaussian Process - Dr. Juan Camilo Orduz.pdf
-[2023-01-08 18:42:35,275][typora_red_img_remover.py][line:72][WARNING] Warnning format(.pdf) detected: C:\Users\Administrator\Desktop\test\tmp\4_Chapter9_GaussianProcesses\refs\blog\Sampling from a Multivariate Normal Distribution - Dr. Juan Camilo Orduz.pdf
-[2023-01-08 18:42:35,276][typora_red_img_remover.py][line:72][WARNING] Warnning format(.pdf) detected: C:\Users\Administrator\Desktop\test\tmp\4_Chapter9_GaussianProcesses\refs\ML_GP_UBC\l5.pdf
-[2023-01-08 18:42:35,276][typora_red_img_remover.py][line:72][WARNING] Warnning format(.pdf) detected: C:\Users\Administrator\Desktop\test\tmp\4_Chapter9_GaussianProcesses\refs\ML_GP_UBC\l6.pdf
-[2023-01-08 18:42:35,276][typora_red_img_remover.py][line:72][WARNING] Warnning format(.pdf) detected: C:\Users\Administrator\Desktop\test\tmp\4_Chapter9_GaussianProcesses\refs\ML_GP_UBC\l7.pdf
-[2023-01-08 18:42:35,276][typora_red_img_remover.py][line:72][WARNING] Warnning format(.pdf) detected: C:\Users\Administrator\Desktop\test\tmp\6_DimensionReduction\Chapter10_降维与度量学习.pdf
-[2023-01-08 18:42:35,277][typora_red_img_remover.py][line:72][WARNING] Warnning format(.pdf) detected: C:\Users\Administrator\Desktop\test\tmp\6_DimensionReduction\Laplacian.pdf
-[2023-01-08 18:42:35,277][typora_red_img_remover.py][line:72][WARNING] Warnning format(.pdf) detected: C:\Users\Administrator\Desktop\test\tmp\6_DimensionReduction\lleintro.pdf
-[2023-01-08 18:42:35,277][typora_red_img_remover.py][line:72][WARNING] Warnning format(.pdf) detected: C:\Users\Administrator\Desktop\test\tmp\6_DimensionReduction\tutorial4-yang_PCA.pdf
-[2023-01-08 18:42:35,277][typora_red_img_remover.py][line:72][WARNING] Warnning format(.pdf) detected: C:\Users\Administrator\Desktop\test\tmp\6_DimensionReduction\局部线性嵌入(LLE).pdf
-[2023-01-08 18:42:35,278][typora_red_img_remover.py][line:72][WARNING] Warnning format(.pdf) detected: C:\Users\Administrator\Desktop\test\tmp\6_DimensionReduction\线性判别分析LDA原理及推导.pdf
-[2023-01-08 18:42:35,278][typora_red_img_remover.py][line:72][WARNING] Warnning format(.pdf) detected: C:\Users\Administrator\Desktop\test\tmp\6_DimensionReduction\高维数据可视化之t-SNE算法.pdf
-[2023-01-08 18:42:35,278][typora_red_img_remover.py][line:72][WARNING] Warnning format(.pdf) detected: C:\Users\Administrator\Desktop\test\tmp\6_DimensionReduction\inverse_lle\2011.10925.pdf
-[2023-01-08 18:42:35,278][typora_red_img_remover.py][line:72][WARNING] Warnning format(.pdf) detected: C:\Users\Administrator\Desktop\test\tmp\6_DimensionReduction\inverse_lle\Inverse_Methods_for_Manifold_Learning_Kay_Kathleen.pdf
-[2023-01-08 18:42:35,279][typora_red_img_remover.py][line:72][WARNING] Warnning format(.pdf) detected: C:\Users\Administrator\Desktop\test\tmp\6_stochastic_programming\Courtney-et-al-Strategy-Under-Uncertainty-1997.pdf
-[2023-01-08 18:42:35,279][typora_red_img_remover.py][line:95][INFO] 
+[2023-02-25 10:25:16,760][typora_red_img_remover.py][line:51][INFO] Total file counts in this folder: 149
+[2023-02-25 10:25:16,761][typora_red_img_remover.py][line:66][INFO] All mds in this folder: ['C:\\Users\\Administrator\\Desktop\\typora_parser\\new\\filecoin加速预研.md']
+[2023-02-25 10:25:18,402][typora_red_img_remover.py][line:95][INFO] 
 Img path extracting... check for hyper-link & abs path, remove method==True
-[2023-01-08 18:42:35,280][typora_red_img_remover.py][line:113][WARNING] HyperLink detected in md imgpath: 
-https://www.zhihu.com/equation?tex=B%3D%5Bb_%7Bij%7D%5D_%7B4%5Ctimes2%7D+%5C%5C
-C:\Users\Administrator\Desktop\test\tmp\2_HiddenMarkovModel\HMM.md
-[2023-01-08 18:42:35,280][typora_red_img_remover.py][line:113][WARNING] HyperLink detected in md imgpath: 
-https://www.zhihu.com/equation?tex=b_%7Bij%7D%3DP%28x_t%3Dv_j%7Cz_t%3Dq_i%29%2C+%5Cqquad+t%3D1%2C2%2C%5Cdots%5C%5C
-C:\Users\Administrator\Desktop\test\tmp\2_HiddenMarkovModel\HMM.md
-[2023-01-08 18:42:35,281][typora_red_img_remover.py][line:113][WARNING] HyperLink detected in md imgpath: 
-https://www.zhihu.com/equation?tex=%5Cpi_i+%3D+P%28z_1%3Dq_i%29%2C+%5Cqquad+i%3D1%2C2%2C3%2C4+%5C%5C
-C:\Users\Administrator\Desktop\test\tmp\2_HiddenMarkovModel\HMM.md
-[2023-01-08 18:42:35,281][typora_red_img_remover.py][line:113][WARNING] HyperLink detected in md imgpath: 
-https://www.zhihu.com/equation?tex=%5Cpi%3D%5Cleft%5B%5Cbegin%7Bmatrix%7D0.25%260.25%260.25%260.25%5C%5C%5Cend%7Bmatrix%7D%5Cright%5D%5ET%5C%5C
-C:\Users\Administrator\Desktop\test\tmp\2_HiddenMarkovModel\HMM.md
-[2023-01-08 18:42:35,281][typora_red_img_remover.py][line:113][WARNING] HyperLink detected in md imgpath: 
-https://www.zhihu.com/equation?tex=%5Cpi
-C:\Users\Administrator\Desktop\test\tmp\2_HiddenMarkovModel\HMM.md
-[2023-01-08 18:42:35,282][typora_red_img_remover.py][line:113][WARNING] HyperLink detected in md imgpath: 
-https://www.zhihu.com/equation?tex=T
-C:\Users\Administrator\Desktop\test\tmp\2_HiddenMarkovModel\HMM.md
-[2023-01-08 18:42:35,282][typora_red_img_remover.py][line:113][WARNING] HyperLink detected in md imgpath: 
-https://www.zhihu.com/equation?tex=T
-C:\Users\Administrator\Desktop\test\tmp\2_HiddenMarkovModel\HMM.md
-[2023-01-08 18:42:35,282][typora_red_img_remover.py][line:113][WARNING] HyperLink detected in md imgpath: 
-https://www.zhihu.com/equation?tex=%5Csum_Z
-C:\Users\Administrator\Desktop\test\tmp\2_HiddenMarkovModel\HMM.md
-[2023-01-08 18:42:35,286][typora_red_img_remover.py][line:116][WARNING] AbsolutePath detected in md imgpath: 
-C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20211226232414624.png
-C:\Users\Administrator\Desktop\test\tmp\6_DimensionReduction\DimensionReduction.md
-[2023-01-08 18:42:35,288][typora_red_img_remover.py][line:151][INFO] 
+[2023-02-25 10:30:29,183][typora_red_img_remover.py][line:158][INFO] 
 All redundant paths are:
-[2023-01-08 18:42:35,288][typora_red_img_remover.py][line:153][INFO] C:\Users\Administrator\Desktop\test\tmp\2_HiddenMarkovModel\Easy_HMM_sy20210518.zip
-[2023-01-08 18:42:35,288][typora_red_img_remover.py][line:153][INFO] C:\Users\Administrator\Desktop\test\tmp\2_HiddenMarkovModel\Example-Viterbi-DNA.pdf
-[2023-01-08 18:42:35,288][typora_red_img_remover.py][line:153][INFO] C:\Users\Administrator\Desktop\test\tmp\2_HiddenMarkovModel\HMM.html
-[2023-01-08 18:42:35,288][typora_red_img_remover.py][line:153][INFO] C:\Users\Administrator\Desktop\test\tmp\2_HiddenMarkovModel\HMM.pdf
-[2023-01-08 18:42:35,289][typora_red_img_remover.py][line:153][INFO] C:\Users\Administrator\Desktop\test\tmp\2_HiddenMarkovModel\Thumbs.db
-[2023-01-08 18:42:35,289][typora_red_img_remover.py][line:153][INFO] C:\Users\Administrator\Desktop\test\tmp\2_HiddenMarkovModel\media\equation
-[2023-01-08 18:42:35,289][typora_red_img_remover.py][line:153][INFO] C:\Users\Administrator\Desktop\test\tmp\2_HiddenMarkovModel\media\image-20200915002429363.png
-[2023-01-08 18:42:35,289][typora_red_img_remover.py][line:153][INFO] C:\Users\Administrator\Desktop\test\tmp\2_HiddenMarkovModel\media\image-20200915191932585.png
-[2023-01-08 18:42:35,289][typora_red_img_remover.py][line:153][INFO] C:\Users\Administrator\Desktop\test\tmp\2_HiddenMarkovModel\media\image-20200915222809787.png
-[2023-01-08 18:42:35,290][typora_red_img_remover.py][line:153][INFO] C:\Users\Administrator\Desktop\test\tmp\2_HiddenMarkovModel\media\image-20200915224413849.png
-[2023-01-08 18:42:35,290][typora_red_img_remover.py][line:153][INFO] C:\Users\Administrator\Desktop\test\tmp\2_HiddenMarkovModel\media\image-20200915231012713.png
-[2023-01-08 18:42:35,290][typora_red_img_remover.py][line:153][INFO] C:\Users\Administrator\Desktop\test\tmp\2_HiddenMarkovModel\media\maxresdefault.jpg
-[2023-01-08 18:42:35,290][typora_red_img_remover.py][line:153][INFO] C:\Users\Administrator\Desktop\test\tmp\2_HiddenMarkovModel\media\v2-1dda230ce3021b0b31d02d0474016cca_720w.jpg
-[2023-01-08 18:42:35,290][typora_red_img_remover.py][line:153][INFO] C:\Users\Administrator\Desktop\test\tmp\2_HiddenMarkovModel\media\v2-42ff2e1b983fccd602c5f91d3525aa97_720w.jpg
-[2023-01-08 18:42:35,291][typora_red_img_remover.py][line:153][INFO] C:\Users\Administrator\Desktop\test\tmp\2_HiddenMarkovModel\media\v2-7111c01df7631ca768df1fb09ee8bb5e_720w.jpg
-[2023-01-08 18:42:35,291][typora_red_img_remover.py][line:153][INFO] C:\Users\Administrator\Desktop\test\tmp\2_HiddenMarkovModel\media\v2-aa0e9e92ed2c9ac0d6553c085381070f_720w.jpg
-[2023-01-08 18:42:35,291][typora_red_img_remover.py][line:153][INFO] C:\Users\Administrator\Desktop\test\tmp\2_HiddenMarkovModel\media\v2-c1f79a08ed10a62db10fed4bfc1afc1f_720w.jpg
-[2023-01-08 18:42:35,291][typora_red_img_remover.py][line:153][INFO] C:\Users\Administrator\Desktop\test\tmp\2_HiddenMarkovModel\media\v2-d7a0a527a28521cdd6dc4e539e613517_720w.jpg
-[2023-01-08 18:42:35,292][typora_red_img_remover.py][line:153][INFO] C:\Users\Administrator\Desktop\test\tmp\2_HiddenMarkovModel\media\v2-ee67e1b6d53957d7cd9ad7ccc446dab7_720w.jpg
-[2023-01-08 18:42:35,292][typora_red_img_remover.py][line:153][INFO] C:\Users\Administrator\Desktop\test\tmp\2_HiddenMarkovModel\media\v2-f307367eb57dab7b76f3290782d4f42e_720w.jpg
-[2023-01-08 18:42:35,292][typora_red_img_remover.py][line:153][INFO] C:\Users\Administrator\Desktop\test\tmp\2_HiddenMarkovModel\media\v2-fec4d6fc5042da745cb9735fb42af790_720w.jpg
-[2023-01-08 18:42:35,292][typora_red_img_remover.py][line:153][INFO] C:\Users\Administrator\Desktop\test\tmp\4_Chapter9_GaussianProcesses\0_intuition\media\1_Intuition\Thumbs.db
-[2023-01-08 18:42:35,293][typora_red_img_remover.py][line:153][INFO] C:\Users\Administrator\Desktop\test\tmp\4_Chapter9_GaussianProcesses\1_math\1_GPtutorial_quick_concept.pdf
-[2023-01-08 18:42:35,293][typora_red_img_remover.py][line:153][INFO] C:\Users\Administrator\Desktop\test\tmp\4_Chapter9_GaussianProcesses\1_math\1_proof_on_conditional_probability_y'giveny.png
-[2023-01-08 18:42:35,293][typora_red_img_remover.py][line:153][INFO] C:\Users\Administrator\Desktop\test\tmp\4_Chapter9_GaussianProcesses\2_gaussian_process_regression_code\gaussian_processes.ipynb
-[2023-01-08 18:42:35,293][typora_red_img_remover.py][line:153][INFO] C:\Users\Administrator\Desktop\test\tmp\4_Chapter9_GaussianProcesses\2_gaussian_process_regression_code\gaussian_processes.pdf
-[2023-01-08 18:42:35,293][typora_red_img_remover.py][line:153][INFO] C:\Users\Administrator\Desktop\test\tmp\4_Chapter9_GaussianProcesses\refs\Bayesian_opt.pdf
-[2023-01-08 18:42:35,294][typora_red_img_remover.py][line:153][INFO] C:\Users\Administrator\Desktop\test\tmp\4_Chapter9_GaussianProcesses\refs\RW2.pdf
-[2023-01-08 18:42:35,294][typora_red_img_remover.py][line:153][INFO] C:\Users\Administrator\Desktop\test\tmp\4_Chapter9_GaussianProcesses\refs\RW_book_GPforML.pdf
-[2023-01-08 18:42:35,294][typora_red_img_remover.py][line:153][INFO] C:\Users\Administrator\Desktop\test\tmp\4_Chapter9_GaussianProcesses\refs\blog\Bayesian Regression as a Gaussian Process - Dr. Juan Camilo Orduz.pdf
-[2023-01-08 18:42:35,294][typora_red_img_remover.py][line:153][INFO] C:\Users\Administrator\Desktop\test\tmp\4_Chapter9_GaussianProcesses\refs\blog\Sampling from a Multivariate Normal Distribution - Dr. Juan Camilo Orduz.pdf
-[2023-01-08 18:42:35,294][typora_red_img_remover.py][line:153][INFO] C:\Users\Administrator\Desktop\test\tmp\4_Chapter9_GaussianProcesses\refs\blog\Thumbs.db
-[2023-01-08 18:42:35,294][typora_red_img_remover.py][line:153][INFO] C:\Users\Administrator\Desktop\test\tmp\4_Chapter9_GaussianProcesses\refs\ML_GP_UBC\GPcourse.txt
-[2023-01-08 18:42:35,295][typora_red_img_remover.py][line:153][INFO] C:\Users\Administrator\Desktop\test\tmp\4_Chapter9_GaussianProcesses\refs\ML_GP_UBC\l5.pdf
-[2023-01-08 18:42:35,295][typora_red_img_remover.py][line:153][INFO] C:\Users\Administrator\Desktop\test\tmp\4_Chapter9_GaussianProcesses\refs\ML_GP_UBC\l6.pdf
-[2023-01-08 18:42:35,295][typora_red_img_remover.py][line:153][INFO] C:\Users\Administrator\Desktop\test\tmp\4_Chapter9_GaussianProcesses\refs\ML_GP_UBC\l7.pdf
-[2023-01-08 18:42:35,295][typora_red_img_remover.py][line:153][INFO] C:\Users\Administrator\Desktop\test\tmp\5_BayesianNeuralNetwork\bayesian_neural_network.png
-[2023-01-08 18:42:35,295][typora_red_img_remover.py][line:153][INFO] C:\Users\Administrator\Desktop\test\tmp\5_BayesianNeuralNetwork\type of uncertainty\aleatoric_vs_epistemic_uncertainty.png
-[2023-01-08 18:42:35,295][typora_red_img_remover.py][line:153][INFO] C:\Users\Administrator\Desktop\test\tmp\5_BayesianNeuralNetwork\type of uncertainty\aleatoric_vs_epistemic_uncertainty2.png
-[2023-01-08 18:42:35,296][typora_red_img_remover.py][line:153][INFO] C:\Users\Administrator\Desktop\test\tmp\5_BayesianNeuralNetwork\type of uncertainty\aleatoric_vs_epistemic_uncertainty3.png
-[2023-01-08 18:42:35,296][typora_red_img_remover.py][line:153][INFO] C:\Users\Administrator\Desktop\test\tmp\6_DimensionReduction\Chapter10_降维与度量学习.pdf
-[2023-01-08 18:42:35,296][typora_red_img_remover.py][line:153][INFO] C:\Users\Administrator\Desktop\test\tmp\6_DimensionReduction\Laplacian.pdf
-[2023-01-08 18:42:35,296][typora_red_img_remover.py][line:153][INFO] C:\Users\Administrator\Desktop\test\tmp\6_DimensionReduction\lleintro.pdf
-[2023-01-08 18:42:35,296][typora_red_img_remover.py][line:153][INFO] C:\Users\Administrator\Desktop\test\tmp\6_DimensionReduction\tutorial4-yang_PCA.pdf
-[2023-01-08 18:42:35,296][typora_red_img_remover.py][line:153][INFO] C:\Users\Administrator\Desktop\test\tmp\6_DimensionReduction\局部线性嵌入(LLE).pdf
-[2023-01-08 18:42:35,297][typora_red_img_remover.py][line:153][INFO] C:\Users\Administrator\Desktop\test\tmp\6_DimensionReduction\线性判别分析LDA原理及推导.pdf
-[2023-01-08 18:42:35,297][typora_red_img_remover.py][line:153][INFO] C:\Users\Administrator\Desktop\test\tmp\6_DimensionReduction\高维数据可视化之t-SNE算法.pdf
-[2023-01-08 18:42:35,297][typora_red_img_remover.py][line:153][INFO] C:\Users\Administrator\Desktop\test\tmp\6_DimensionReduction\code\lle\LLE.png
-[2023-01-08 18:42:35,297][typora_red_img_remover.py][line:153][INFO] C:\Users\Administrator\Desktop\test\tmp\6_DimensionReduction\code\lle\lle.py
-[2023-01-08 18:42:35,297][typora_red_img_remover.py][line:153][INFO] C:\Users\Administrator\Desktop\test\tmp\6_DimensionReduction\code\lle\main.py
-[2023-01-08 18:42:35,297][typora_red_img_remover.py][line:153][INFO] C:\Users\Administrator\Desktop\test\tmp\6_DimensionReduction\code\lle\pylle.py
-[2023-01-08 18:42:35,297][typora_red_img_remover.py][line:153][INFO] C:\Users\Administrator\Desktop\test\tmp\6_DimensionReduction\code\lle\__pycache__\lle.cpython-38.pyc
-[2023-01-08 18:42:35,298][typora_red_img_remover.py][line:153][INFO] C:\Users\Administrator\Desktop\test\tmp\6_DimensionReduction\inverse_lle\2011.10925.pdf
-[2023-01-08 18:42:35,298][typora_red_img_remover.py][line:153][INFO] C:\Users\Administrator\Desktop\test\tmp\6_DimensionReduction\inverse_lle\Inverse_Methods_for_Manifold_Learning_Kay_Kathleen.pdf
-[2023-01-08 18:42:35,298][typora_red_img_remover.py][line:153][INFO] C:\Users\Administrator\Desktop\test\tmp\6_DimensionReduction\media\DimensionReduction\1hjo4XLAm_ww93DPYe3aSVQ-16401777169665.png
-[2023-01-08 18:42:35,298][typora_red_img_remover.py][line:153][INFO] C:\Users\Administrator\Desktop\test\tmp\6_DimensionReduction\media\DimensionReduction\1mO-hgV2ZxR7-NTqlPYZ-uQ.png
-[2023-01-08 18:42:35,298][typora_red_img_remover.py][line:153][INFO] C:\Users\Administrator\Desktop\test\tmp\6_DimensionReduction\media\DimensionReduction\1NDTdukI_hbf7J-z2hShz_g.png
-[2023-01-08 18:42:35,299][typora_red_img_remover.py][line:153][INFO] C:\Users\Administrator\Desktop\test\tmp\6_DimensionReduction\media\DimensionReduction\1tZ-Z481ITAoWLDVoNMSOzA.png
-[2023-01-08 18:42:35,299][typora_red_img_remover.py][line:153][INFO] C:\Users\Administrator\Desktop\test\tmp\6_DimensionReduction\media\DimensionReduction\1Uv7z-el3YSutoonlVal6Lw.png
-[2023-01-08 18:42:35,299][typora_red_img_remover.py][line:153][INFO] C:\Users\Administrator\Desktop\test\tmp\6_DimensionReduction\media\DimensionReduction\1_KfLn5xj1dw7y3P4jdgnig.png
-[2023-01-08 18:42:35,299][typora_red_img_remover.py][line:153][INFO] C:\Users\Administrator\Desktop\test\tmp\6_stochastic_programming\Courtney-et-al-Strategy-Under-Uncertainty-1997.pdf
-[2023-01-08 18:42:35,346][typora_red_img_remover.py][line:168][INFO] All redundant files are moved to C:\Users\Administrator\Desktop\test\tmp\red_files waiting for manual verification
+[2023-02-25 10:30:29,183][typora_red_img_remover.py][line:160][INFO] C:\Users\Administrator\Desktop\typora_parser\new\media\filecoin加速预研\1607650448350.png
+[2023-02-25 10:30:29,184][typora_red_img_remover.py][line:160][INFO] C:\Users\Administrator\Desktop\typora_parser\new\media\filecoin加速预研\310px-Hash_Tree.svg.png
+[2023-02-25 10:30:29,184][typora_red_img_remover.py][line:160][INFO] C:\Users\Administrator\Desktop\typora_parser\new\media\filecoin加速预研\640 (2).webp
+[2023-02-25 10:30:29,184][typora_red_img_remover.py][line:160][INFO] C:\Users\Administrator\Desktop\typora_parser\new\media\filecoin加速预研\be8932e3dd0f0f144b6c6fbb088fe21a08640ad8
+[2023-02-25 10:30:29,185][typora_red_img_remover.py][line:160][INFO] C:\Users\Administrator\Desktop\typora_parser\new\media\filecoin加速预研\clip_image002-1608262812707.gif
+[2023-02-25 10:30:29,185][typora_red_img_remover.py][line:160][INFO] C:\Users\Administrator\Desktop\typora_parser\new\media\filecoin加速预研\clip_image002.gif
+[2023-02-25 10:30:29,185][typora_red_img_remover.py][line:160][INFO] C:\Users\Administrator\Desktop\typora_parser\new\media\filecoin加速预研\f59da4e17b1224d6a3fd46309ff6edd7.jpeg
+[2023-02-25 10:30:29,186][typora_red_img_remover.py][line:160][INFO] C:\Users\Administrator\Desktop\typora_parser\new\media\filecoin加速预研\filecoin-7-2.png
+[2023-02-25 10:30:29,186][typora_red_img_remover.py][line:160][INFO] C:\Users\Administrator\Desktop\typora_parser\new\media\filecoin加速预研\image-20201214134641056.png
+[2023-02-25 10:30:29,186][typora_red_img_remover.py][line:160][INFO] C:\Users\Administrator\Desktop\typora_parser\new\media\filecoin加速预研\image-20201214155529175.png
+[2023-02-25 10:30:29,187][typora_red_img_remover.py][line:160][INFO] C:\Users\Administrator\Desktop\typora_parser\new\media\filecoin加速预研\image-20201217091106497.png
+[2023-02-25 10:30:29,187][typora_red_img_remover.py][line:160][INFO] C:\Users\Administrator\Desktop\typora_parser\new\media\filecoin加速预研\image-20201217104238238.png
+[2023-02-25 10:30:29,187][typora_red_img_remover.py][line:160][INFO] C:\Users\Administrator\Desktop\typora_parser\new\media\filecoin加速预研\image-20201217144939730.png
+[2023-02-25 10:30:29,188][typora_red_img_remover.py][line:160][INFO] C:\Users\Administrator\Desktop\typora_parser\new\media\filecoin加速预研\image-20201218091555387.png
+[2023-02-25 10:30:29,188][typora_red_img_remover.py][line:160][INFO] C:\Users\Administrator\Desktop\typora_parser\new\media\filecoin加速预研\image-20201225112930034.png
+[2023-02-25 10:30:29,188][typora_red_img_remover.py][line:160][INFO] C:\Users\Administrator\Desktop\typora_parser\new\media\filecoin加速预研\image-20201225112951618.png
+[2023-02-25 10:30:29,188][typora_red_img_remover.py][line:160][INFO] C:\Users\Administrator\Desktop\typora_parser\new\media\filecoin加速预研\image-20201225113421629.png
+[2023-02-25 10:30:29,189][typora_red_img_remover.py][line:160][INFO] C:\Users\Administrator\Desktop\typora_parser\new\media\filecoin加速预研\image-20201225115700532.png
+[2023-02-25 10:30:29,189][typora_red_img_remover.py][line:160][INFO] C:\Users\Administrator\Desktop\typora_parser\new\media\filecoin加速预研\image-20201225115707427.png
+[2023-02-25 10:30:29,189][typora_red_img_remover.py][line:160][INFO] C:\Users\Administrator\Desktop\typora_parser\new\media\filecoin加速预研\image-20201225120809024.png
+[2023-02-25 10:30:29,189][typora_red_img_remover.py][line:160][INFO] C:\Users\Administrator\Desktop\typora_parser\new\media\filecoin加速预研\image-20201229162437019.png
+[2023-02-25 10:30:29,189][typora_red_img_remover.py][line:160][INFO] C:\Users\Administrator\Desktop\typora_parser\new\media\filecoin加速预研\image-20201229162529812.png
+[2023-02-25 10:30:29,190][typora_red_img_remover.py][line:160][INFO] C:\Users\Administrator\Desktop\typora_parser\new\media\filecoin加速预研\image-20201229162546293.png
+[2023-02-25 10:30:29,190][typora_red_img_remover.py][line:160][INFO] C:\Users\Administrator\Desktop\typora_parser\new\media\filecoin加速预研\image-20201229182315550.png
+[2023-02-25 10:30:29,190][typora_red_img_remover.py][line:160][INFO] C:\Users\Administrator\Desktop\typora_parser\new\media\filecoin加速预研\image-20201229185733177.png
+[2023-02-25 10:30:29,190][typora_red_img_remover.py][line:160][INFO] C:\Users\Administrator\Desktop\typora_parser\new\media\filecoin加速预研\image-20210104114340163.png
+[2023-02-25 10:30:29,191][typora_red_img_remover.py][line:160][INFO] C:\Users\Administrator\Desktop\typora_parser\new\media\filecoin加速预研\image-20210104114405247.png
+[2023-02-25 10:30:29,191][typora_red_img_remover.py][line:160][INFO] C:\Users\Administrator\Desktop\typora_parser\new\media\filecoin加速预研\image-20210107165359993.png
+[2023-02-25 10:30:29,191][typora_red_img_remover.py][line:160][INFO] C:\Users\Administrator\Desktop\typora_parser\new\media\filecoin加速预研\image-20210115093541459.png
+[2023-02-25 10:30:29,191][typora_red_img_remover.py][line:160][INFO] C:\Users\Administrator\Desktop\typora_parser\new\media\filecoin加速预研\image-20210115145459797.png
+[2023-02-25 10:30:29,192][typora_red_img_remover.py][line:160][INFO] C:\Users\Administrator\Desktop\typora_parser\new\media\filecoin加速预研\image-20210115145616486.png
+[2023-02-25 10:30:29,192][typora_red_img_remover.py][line:160][INFO] C:\Users\Administrator\Desktop\typora_parser\new\media\filecoin加速预研\image-20210115150033415.png
+[2023-02-25 10:30:29,192][typora_red_img_remover.py][line:160][INFO] C:\Users\Administrator\Desktop\typora_parser\new\media\filecoin加速预研\image-20210115150121058.png
+[2023-02-25 10:30:29,192][typora_red_img_remover.py][line:160][INFO] C:\Users\Administrator\Desktop\typora_parser\new\media\filecoin加速预研\image-20210115150244920.png
+[2023-02-25 10:30:29,193][typora_red_img_remover.py][line:160][INFO] C:\Users\Administrator\Desktop\typora_parser\new\media\filecoin加速预研\image-20210115152106769.png
+[2023-02-25 10:30:29,193][typora_red_img_remover.py][line:160][INFO] C:\Users\Administrator\Desktop\typora_parser\new\media\filecoin加速预研\image-20210115152800953.png
+[2023-02-25 10:30:29,193][typora_red_img_remover.py][line:160][INFO] C:\Users\Administrator\Desktop\typora_parser\new\media\filecoin加速预研\image-20210115152826984.png
+[2023-02-25 10:30:29,194][typora_red_img_remover.py][line:160][INFO] C:\Users\Administrator\Desktop\typora_parser\new\media\filecoin加速预研\image-20210115154437512.png
+[2023-02-25 10:30:29,194][typora_red_img_remover.py][line:160][INFO] C:\Users\Administrator\Desktop\typora_parser\new\media\filecoin加速预研\image-20210115154502661.png
+[2023-02-25 10:30:29,194][typora_red_img_remover.py][line:160][INFO] C:\Users\Administrator\Desktop\typora_parser\new\media\filecoin加速预研\image-20210115154535647.png
+[2023-02-25 10:30:29,194][typora_red_img_remover.py][line:160][INFO] C:\Users\Administrator\Desktop\typora_parser\new\media\filecoin加速预研\image-20210115154608736.png
+[2023-02-25 10:30:29,195][typora_red_img_remover.py][line:160][INFO] C:\Users\Administrator\Desktop\typora_parser\new\media\filecoin加速预研\image-20210115154613867.png
+[2023-02-25 10:30:29,195][typora_red_img_remover.py][line:160][INFO] C:\Users\Administrator\Desktop\typora_parser\new\media\filecoin加速预研\image-20210115154904400.png
+[2023-02-25 10:30:29,195][typora_red_img_remover.py][line:160][INFO] C:\Users\Administrator\Desktop\typora_parser\new\media\filecoin加速预研\image-20210115155907250.png
+[2023-02-25 10:30:29,195][typora_red_img_remover.py][line:160][INFO] C:\Users\Administrator\Desktop\typora_parser\new\media\filecoin加速预研\image-20210115161121440.png
+[2023-02-25 10:30:29,196][typora_red_img_remover.py][line:160][INFO] C:\Users\Administrator\Desktop\typora_parser\new\media\filecoin加速预研\image-20210115161334224.png
+[2023-02-25 10:30:29,196][typora_red_img_remover.py][line:160][INFO] C:\Users\Administrator\Desktop\typora_parser\new\media\filecoin加速预研\image-20210115162120334.png
+[2023-02-25 10:30:29,196][typora_red_img_remover.py][line:160][INFO] C:\Users\Administrator\Desktop\typora_parser\new\media\filecoin加速预研\image-20210115162855390.png
+[2023-02-25 10:30:29,197][typora_red_img_remover.py][line:160][INFO] C:\Users\Administrator\Desktop\typora_parser\new\media\filecoin加速预研\image-20220714100726473.png
+[2023-02-25 10:30:29,197][typora_red_img_remover.py][line:160][INFO] C:\Users\Administrator\Desktop\typora_parser\new\media\filecoin加速预研\image-20220714105129213.png
+[2023-02-25 10:30:29,197][typora_red_img_remover.py][line:160][INFO] C:\Users\Administrator\Desktop\typora_parser\new\media\filecoin加速预研\v2-1f7651e6f027c80df4a2052d85892aa8_1440w.jpg
+[2023-02-25 10:30:29,235][typora_red_img_remover.py][line:175][INFO] All redundant files are moved to C:\Users\Administrator\Desktop\typora_parser\new\red_files waiting for manual verification
